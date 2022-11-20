@@ -1,6 +1,6 @@
 var http = require('http');
 var fs = require('fs');
-//var url = require('url');
+
 var data = fs.readFileSync('welcome.txt');
 
 
@@ -10,5 +10,5 @@ http.createServer(function (request, response) {
    
 }).listen(3000);
 
-// Console will print the message
+
 console.log("welcome.txt file contain : : " + data.toString());
