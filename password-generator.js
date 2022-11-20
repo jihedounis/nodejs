@@ -5,5 +5,4 @@ var password = generator.generate({
 	numbers: true
 });
 
-// 'uEyMTw32v9'
 console.log(password);
